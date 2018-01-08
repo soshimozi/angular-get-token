@@ -5,10 +5,6 @@ var app = angular.module('GetTokenApp', [
   'ui.bootstrap'
 ]);
 
-
-
-
-
 app.config(['growlProvider', function (growlProvider) {
   growlProvider.onlyUniqueMessages(false);
 }]);
