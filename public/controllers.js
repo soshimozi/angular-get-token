@@ -32,7 +32,7 @@ angular.module('GetTokenApp.controllers', [])
     };
 
     vm.clipboardOnSuccess = function(evt) {
-        growl.general('Coped to clipboard!', {ttl:4000}, 'success');
+        growl.success('Coped to clipboard!');
         //growl.success('Copied to clipboard.',{title: 'Copy Success'});
     };
 }]);
